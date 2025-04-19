@@ -1,4 +1,4 @@
-import src.filter_valid_transactions as filter_valid_transactions
+import src.a04_filter_valid_transactions as a04_filter_valid_transactions
 
 def test_filter_valid_transactions():
     transactions = [
@@ -14,4 +14,4 @@ def test_filter_valid_transactions():
         {'amount': 200, 'currency': 'JPY', 'status': 'completed'}
     ]
 
-    assert filter_valid_transactions.filter_valid_transactions(transactions) == expected_valid_transactions
+    assert a04_filter_valid_transactions.filter_valid_transactions(transactions) == expected_valid_transactions

@@ -1,4 +1,4 @@
-from src.shared_cart import shared_cart
+from src.a18_shared_cart import shared_cart
 
 def test_shared_cart():
     requests = [

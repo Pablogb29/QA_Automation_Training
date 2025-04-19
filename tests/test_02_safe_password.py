@@ -1,4 +1,4 @@
-import src.safe_password as spw
+import src.a02_safe_password as spw
 
 def test_safe_password():
     # Test with a valid password

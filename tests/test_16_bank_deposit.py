@@ -1,4 +1,4 @@
-from src.bank_deposit import bank_deposit
+from src.a16_bank_deposit import bank_deposit
 
 def test_bank_deposit():
     balances = [100, 200]

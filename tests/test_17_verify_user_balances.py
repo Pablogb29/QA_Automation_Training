@@ -1,4 +1,4 @@
-from src.verify_user_balance import verify_user_balance
+from src.a17_verify_user_balance import verify_user_balance
 
 def test_verify_user_balance():
 

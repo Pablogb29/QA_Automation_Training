@@ -1,8 +1,8 @@
 import pytest
-import src.validate_phone as validate_phone
-import src.validate_phone_regex as validate_phone_regex
+import src.a13_validate_phone as a13_validate_phone
+import src.a13_validate_phone_regex as a13_validate_phone_regex
 
-@pytest.mark.parametrize("func", [validate_phone.validate_phone, validate_phone_regex.validate_phone_regex])
+@pytest.mark.parametrize("func", [a13_validate_phone.validate_phone, a13_validate_phone_regex.validate_phone_regex])
 def test_validate_phone(func):
     assert func("+34699123456") is True
     assert func("+123456789012") is True
